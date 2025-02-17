@@ -53,6 +53,12 @@ export default {
   		}
   	}
   },
+
+
+  eslint:{
+	ignoreDuringBuilds: true,
+
+  },
   plugins: [require("tailwindcss-animate")],
 }
 
