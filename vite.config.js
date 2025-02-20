@@ -15,4 +15,9 @@ export default defineConfig({
       plugins: [tailwindcss()],
     },
   },
+   build: {
+    rollupOptions: {
+      external: ["@clerk/clerk-react"],
+    },
+  },
 })
