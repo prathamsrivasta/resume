@@ -21,6 +21,9 @@ export default defineConfig({
    build: {
     rollupOptions: {
       external: ["@clerk/clerk-react"],
+      output: {
+        manualChunks: undefined,
+      },
     },
   },
 
