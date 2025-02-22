@@ -2,7 +2,7 @@ import { Outlet } from 'react-router'
 import './App.css'
 import { Button } from "@/components/ui/button"
 import { Navigate } from 'react-router'
-import {  OtherUsedComponents,useUser } from '@clerk/clerk-react'
+import { useUser } from '@clerk/clerk-react'
 import Header from './components/custom/Header'
 
 

@@ -6,7 +6,7 @@ import './App.css'
 import App from './App.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router'
 import SignInPage from './auth/sign-in/index.jsx'
-import { ClerkProvider,OtherUsedComponents } from '@clerk/clerk-react'
+import { ClerkProvider} from '@clerk/clerk-react'
 import Home from './Home/index.jsx'
 import Dashboard from './dashboard/index.jsx'
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY

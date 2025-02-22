@@ -1,4 +1,4 @@
-import { SignIn, RedirectToSignIn } from '@clerk/clerk-react'
+import { SignIn} from '@clerk/clerk-react'
 import React from 'react'
 
 
